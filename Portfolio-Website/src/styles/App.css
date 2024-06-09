@@ -1,0 +1,263 @@
+/* Global Styles */
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #8f9cfc; /* Light gray background */
+  color: white;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #554cff; /* Darker blue background */
+  padding: 1rem;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: #2c24d4;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  text-decoration: underline; /* Highlight active section */
+}
+
+/* Section Styles */
+section {
+  padding: 2rem;
+  width: 80%;
+  margin: auto;
+}
+
+/* Portfolio Styles */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.project {
+  width: calc(33% - 20px);
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.project a:hover {
+  background-color: #eee;
+}
+
+/* Contact Form Styles */
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  background-color: #2c24d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1a1c9c;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2c24d4;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+footer a:hover {
+  color: #eee;
+}
+
+#myPhoto {
+  width: 180px;
+  float: left;
+  padding-top: 15px;
+}
+#git {
+  width: 20px;
+  margin-right: 5px;
+}
+#head {
+  width: 30px;
+  border-radius: 15px;
+  justify-content: end;
+  margin-right: 15px;
+}
+#press {
+  color: #8f9cfc;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-right: 10px;
+}
+
+#press:hover {
+  color: #2c24d4;
+  background-color: white;
+  text-decoration: none;
+}
+
+#textbox {
+  float: left; /* or right */
+  height: 160px; /* Adjust the width as needed */
+  width: 60%;
+  padding: 10px; /* Adjust the padding as needed */
+  background-color: #7483f6; /* Background color */
+  justify-content: end;
+}
+#project {
+  float:inline-start; /* or right */
+  padding: 10px; /* Adjust the padding as needed */
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #7483f6; /* Background color */
+  justify-content: end;
+}
+#project-img{
+  float:inline-start;
+  width: 30%;
+  margin-right: 20px;
+}
+section {
+  margin-left: 8vw;
+}
+#portfolio{
+  height: 130vw;
+}
+/* Media Query for screens less than 700px */
+@media (max-width: 700px) {
+  /* Reset floats and widths for smaller screens */
+  #textbox, #project, #project-img {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+  #textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-top: 40px;
+  }
+  
+  /* Adjust section width and margin */
+  section {
+    width: 80%;
+    margin: 10px 0;
+    padding: 1rem;
+  }
+  
+  /* Flexbox adjustments for the projects container */
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
+  /* Make projects full width */
+  .project {
+    width: 80%;
+    margin: 10px 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-top: 40px;
+  }
+  
+  /* Ensure footer stays at the bottom */
+  #portfolio{
+    height: 450vw;
+  }
+}
