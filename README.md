@@ -1,8 +1,52 @@
-# React + Vite
+# New Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is an updated portfolio of all of my projects and information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+
+Navigate to the repository, click the <> icon and download the zip file
+
+## Usage
+
+none
+
+## Credits
+
+none
+
+## License
+This project is licensed under the MIT license.
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact [mikorod622](https://github.com/mikorod622) directly at mikorod622@gmail.com.
+
+---
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+## Features
+
+
+## How to Contribute
+
+none
+
+## Tests
+
+none
